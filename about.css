@@ -1,0 +1,160 @@
+body{
+    margin: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+/*style for menu section */
+div.container{
+    width: 80%;
+    margin: auto;
+}
+div.logo img{
+    height: 60px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+div.menu-logo{
+    width: 100%;
+    background-color:burlywood;
+    
+}
+div.logo,div.menu{
+    display: inline-block;
+    width: 49%;
+}
+ul{
+    margin:0px;
+    padding:0px;
+}
+ul li{
+    display: inline-block;
+
+}
+ul li a{
+    color:white;
+    text-decoration:none;
+    padding:20px;
+    font-size: 20px;
+}
+ul li a:hover{
+    background-color: #F5DEB3;
+    color:black;
+}
+div.zom{
+    
+    width: 100%;
+    margin:auto;
+    background-image: url("images/8.png");
+    opacity: 0.8;
+    box-shadow: 2px 2px 5px black;
+    height: 500px;
+    padding-bottom:0px;
+
+}
+div.zom img{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    z-index: 1;
+    
+}
+p.zom1{
+    font-size: 40px;
+    color:black;
+    position: absolute;
+    z-index: 2;
+    top:130px;
+    left:600px;
+    height: 60px;
+    width: 200px;
+    background-color: #FFDEAD;
+    border-radius: 40px;
+    text-align: center;
+    transition: width 3s;
+    box-shadow: 5px 5px 10px  yellow;
+    opacity: 0.4px;
+}
+.zom1:hover{
+    width:400px;
+}
+div.main{
+    width: 100%;
+    margin-top:0px;
+    margin: auto;
+    margin-left:20px;
+    
+    
+    
+}
+div.main div.pic1{
+    width: 18%;
+    float: left;
+    background-color:white;
+    height: 300px;
+    margin-top:20px;
+    margin-left: 20px;
+    
+    box-shadow: 2px 2px 5px  black;
+    border-radius: 10px;
+}
+div.pic1 img{
+    margin-left:60px;
+    margin-top:10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 6px white;
+}
+
+div.right{
+padding-top:20px;
+height: 400px;
+width: 49%;
+display: inline-block;
+box-shadow:2px 2px 5px bisque;
+margin-top: 20px;
+
+}
+div.right img{
+    margin: auto;
+    height: 350px;
+    width: 450px;
+}
+
+div.left{
+    float:right;
+    width: 49%;
+    height: 400px;
+    box-shadow: 2px 2px 5px ;
+    margin-top: 20px;
+}
+div.left p{
+    margin:20px;
+    text-align:right ;
+    line-height: 1.7;
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

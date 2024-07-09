@@ -1,0 +1,174 @@
+body{
+    margin: 0px;
+
+}
+*{
+    box-sizing: border-box;
+}
+/*style for menu section */
+div.container{
+    
+    width: 80%;
+    margin: auto;
+}
+div.logo img{
+    height: 60px;
+    width: 80px;
+    border-radius: 50%;
+}
+div.menu-logo{
+    width: 100%;
+    background-color:burlywood;
+
+    
+}
+div.logo,div.menu{
+    display: inline-block;
+    width: 49%;
+}
+ul{
+    margin:0px;
+    padding:0px;
+}
+ul li{
+    display: inline-block;
+
+}
+ul li a{
+    color:white;
+    text-decoration:none;
+    padding:20px;
+    font-size: 20px;
+}
+ul li a:hover{
+    background-color: #F5DEB3;
+    color:black;
+}
+div.welcome1{
+    position: relative;;
+    width: 100%;
+    background-color: #F5DEB3;
+    height: 660px;
+    z-index: 1;
+
+}
+div.welcome2{
+    position: absolute;
+    height: 400px;
+    width: 350px;
+    z-index:3;
+    top:260px;
+    left:900px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 3px 4px 7px 4px burlywood;
+}
+div.welcome2 p{
+text-align: justify;
+padding:30px;
+padding-top:4px;
+line-height: 1.8;
+
+
+}
+.zom1 ul li{
+    padding-right:10px;
+    padding-left:50px;
+}
+div.welcome2 h1{
+    text-align: center;
+
+}
+div.welcome3{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: burlywood;
+    margin-left: 50px;
+    margin-top: -30px;
+    z-index:3;
+    top:260px;
+    left:60px;
+    
+}
+div.welcome4{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: burlywood;
+    margin-left: 50px;
+    margin-top: 10px;
+    z-index:3;
+    top:100px;
+    left:18px;
+    
+}div.welcome5{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: burlywood;
+    margin-left: 50px;
+    margin-top: 5px;
+    z-index:3;
+    top:10px;
+    left:100px;
+    
+}
+div.welcome1 img{
+    width: 1000px;
+    height: 350px;
+    margin-left: 180px;
+    margin-top:40px;
+    box-shadow: 3px 4px 7px 4px burlywood;
+    
+}
+div.sang{
+    height:400px;
+    width: 80%;
+    margin: auto;
+    
+    
+    
+}
+div.sang div.zom1{
+    height: 300px;
+    width: 300px;
+    border: chartreuse 1px solid;
+    float: left;
+    margin-top:60px;
+    margin-left: 40px;
+    position: relative;
+    z-index: 1;
+    box-shadow: burlywood 4px 4px 8px;
+    border-radius: 10px;
+}
+div.zom1 img{
+margin-top:-0px;
+ height: 150px;
+ width: 150px;
+ border-radius: 50%;
+position: absolute;
+z-index:2;
+margin-left: 75px;
+margin-top:-50px;
+
+}
+div.zom1 h2{
+    margin-top:120px;
+    text-align:center;
+}
+div.footer{
+    width: 100%;
+    height: 40px;
+    background-color:  #F5DEB3;
+    text-align: center;
+    padding-top:10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+
+
+
